@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(46, 49, 146);
+  background: linear-gradient(
+    59deg,
+    rgba(46, 49, 146, 1) 0%,
+    rgba(25, 0, 135, 1) 100%
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+}
+
+.title {
+  z-index: 9;
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0.6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: default;
+}
+
+span {
+  font-weight: 300;
+  letter-spacing: 1rem;
+}
+
+svg{
+  z-index: 4;
+}
+
+.object {
+  position: absolute;
+}
+
+.earth {
+  top: 2rem;
+  left: 15rem;
+}
+
+.asteoroid {
+  top: 4rem;
+  left: 60rem;
+}
+
+.moon {
+  top: 30rem;
+  left: 25rem;
+}
+
+.rocket {
+  top: 25rem;
+  right: 17rem;
+}
+
+.crystal {
+  rotate: 45deg;
+  top: 22rem;
+  left: 10rem;
+}
